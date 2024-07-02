@@ -74,7 +74,7 @@ from prismatic.vla.datasets.rlds.utils.data_utils import save_dataset_statistics
 import huggingface_hub
 
 # Set your Hugging Face token
-huggingface_hub.login(token='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')
+huggingface_hub.login(token='****')
 
 # Sane Defaults
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
